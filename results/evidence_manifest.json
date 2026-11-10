@@ -1,0 +1,263 @@
+{
+  "schema_version": 1,
+  "integrity_scope": "Byte hashes pin this release; canonical JSON hashes additionally link predictions to archived replay summaries. Not external attestation.",
+  "included": [
+    {
+      "source_deepnote_path": "papers/RESEARCH_FRONTIER_INTEGRATED_APRNN_MANUSCRIPT_v1_2026_11_10.md",
+      "repository_path": "paper/integrated_manuscript.md",
+      "sha256": "547e6e5cd1c82fcd65e0413755e076dc98ef6e7229191a95d64d26f680209b7b",
+      "size_bytes": 20786,
+      "format": "md",
+      "scientific_purpose": "Saved scientific evidence or authoritative report",
+      "verification_level": "saved source; scope documented in README",
+      "restrictions": "Third-party model/data rights not relicensed; text transfer may normalize final newline"
+    },
+    {
+      "source_deepnote_path": "papers/APRNN_EIGHT_COHORT_PILOT_RESEARCH_REPORT_2026-11-09.md",
+      "repository_path": "protocols/eight_cohort_pilot.md",
+      "sha256": "978c1d9a6ea1864dc7d98f7a6dcb4bc2311b2a0bf8d95a65a0d81a488d151a54",
+      "size_bytes": 14247,
+      "format": "md",
+      "scientific_purpose": "Saved scientific evidence or authoritative report",
+      "verification_level": "saved source; scope documented in README",
+      "restrictions": "Third-party model/data rights not relicensed; text transfer may normalize final newline"
+    },
+    {
+      "source_deepnote_path": "papers/RP001_FINAL_RESEARCH_NOTE_2026_11_10.md",
+      "repository_path": "protocols/rp001_objective_comparison.md",
+      "sha256": "1337105eac1f9f7588e71beb7aac994d9e7bb47f2f28860742a08faeffd39785",
+      "size_bytes": 8847,
+      "format": "md",
+      "scientific_purpose": "Saved scientific evidence or authoritative report",
+      "verification_level": "saved source; scope documented in README",
+      "restrictions": "Third-party model/data rights not relicensed; text transfer may normalize final newline"
+    },
+    {
+      "source_deepnote_path": "experiments/aprnn_r002_r004/prospective_pilot_2026_11_08/FROZEN_PILOT_COHORTS.json",
+      "repository_path": "results/evidence/FROZEN_PILOT_COHORTS.json",
+      "sha256": "87f5f223f5eff790b6e1dc034f11daf5c4efb9701cad0fdd3068f85867631a75",
+      "size_bytes": 3978,
+      "format": "json",
+      "scientific_purpose": "Saved scientific evidence or authoritative report",
+      "verification_level": "saved source; scope documented in README",
+      "restrictions": "Third-party model/data rights not relicensed; text transfer may normalize final newline"
+    },
+    {
+      "source_deepnote_path": "experiments/aprnn_r002_r004/prospective_pilot_2026_11_08/FROZEN_PILOT_PRE_REPAIR_FEATURES.json",
+      "repository_path": "results/evidence/FROZEN_PILOT_PRE_REPAIR_FEATURES.json",
+      "sha256": "611912544fffa6be6417027003bfedd677f6fd7c6969e2677bbfe657df134566",
+      "size_bytes": 25051,
+      "format": "json",
+      "scientific_purpose": "Saved scientific evidence or authoritative report",
+      "verification_level": "saved source; scope documented in README",
+      "restrictions": "Third-party model/data rights not relicensed; text transfer may normalize final newline"
+    },
+    {
+      "source_deepnote_path": "experiments/aprnn_r002_r004/rp001_option_b_four_repair_2026_11_10/P001_J0/common_setup.json",
+      "repository_path": "results/evidence/P001_J0/common_setup.json",
+      "sha256": "89ce12057168ba72eeeb8da456274dc22009d1aa6ec27bd88366e922fcdcb873",
+      "size_bytes": 1945,
+      "format": "json",
+      "scientific_purpose": "Saved scientific evidence or authoritative report",
+      "verification_level": "release analysis checks saved predictions/points; no new checkpoint replay",
+      "restrictions": "Third-party model/data rights not relicensed; text transfer may normalize final newline"
+    },
+    {
+      "source_deepnote_path": "experiments/aprnn_r002_r004/rp001_option_b_four_repair_2026_11_10/P001_J0/independent_heldout_predictions.json",
+      "repository_path": "results/evidence/P001_J0/independent_heldout_predictions.json",
+      "sha256": "0451c609ac0202aaca501821c1ed723b21ca81984372e9bcc5f030ebdee5e73a",
+      "size_bytes": 282735,
+      "format": "json",
+      "scientific_purpose": "Saved scientific evidence or authoritative report",
+      "verification_level": "release analysis checks saved predictions/points; no new checkpoint replay",
+      "restrictions": "Third-party model/data rights not relicensed; text transfer may normalize final newline"
+    },
+    {
+      "source_deepnote_path": "experiments/aprnn_r002_r004/rp001_option_b_four_repair_2026_11_10/P001_J0/independent_repair_points.json",
+      "repository_path": "results/evidence/P001_J0/independent_repair_points.json",
+      "sha256": "b848846420fae29ff68c424e0f69796112761e31899fc9629a172cb39c9fab3b",
+      "size_bytes": 30743,
+      "format": "json",
+      "scientific_purpose": "Saved scientific evidence or authoritative report",
+      "verification_level": "release analysis checks saved predictions/points; no new checkpoint replay",
+      "restrictions": "Third-party model/data rights not relicensed; text transfer may normalize final newline"
+    },
+    {
+      "source_deepnote_path": "experiments/aprnn_r002_r004/rp001_option_b_four_repair_2026_11_10/P001_J1/common_setup.json",
+      "repository_path": "results/evidence/P001_J1/common_setup.json",
+      "sha256": "89ce12057168ba72eeeb8da456274dc22009d1aa6ec27bd88366e922fcdcb873",
+      "size_bytes": 1945,
+      "format": "json",
+      "scientific_purpose": "Saved scientific evidence or authoritative report",
+      "verification_level": "release analysis checks saved predictions/points; no new checkpoint replay",
+      "restrictions": "Third-party model/data rights not relicensed; text transfer may normalize final newline"
+    },
+    {
+      "source_deepnote_path": "experiments/aprnn_r002_r004/rp001_option_b_four_repair_2026_11_10/P001_J1/independent_heldout_predictions.json",
+      "repository_path": "results/evidence/P001_J1/independent_heldout_predictions.json",
+      "sha256": "5ece3a8ff2dbcbeaf4f0f2e4c7b6e7e217efe6568e362dc733603c0f78e90497",
+      "size_bytes": 282735,
+      "format": "json",
+      "scientific_purpose": "Saved scientific evidence or authoritative report",
+      "verification_level": "release analysis checks saved predictions/points; no new checkpoint replay",
+      "restrictions": "Third-party model/data rights not relicensed; text transfer may normalize final newline"
+    },
+    {
+      "source_deepnote_path": "experiments/aprnn_r002_r004/rp001_option_b_four_repair_2026_11_10/P001_J1/independent_repair_points.json",
+      "repository_path": "results/evidence/P001_J1/independent_repair_points.json",
+      "sha256": "031c45c93c777fa906d4d356371ab39c034cb19db30c10c6243b027770743575",
+      "size_bytes": 31113,
+      "format": "json",
+      "scientific_purpose": "Saved scientific evidence or authoritative report",
+      "verification_level": "release analysis checks saved predictions/points; no new checkpoint replay",
+      "restrictions": "Third-party model/data rights not relicensed; text transfer may normalize final newline"
+    },
+    {
+      "source_deepnote_path": "experiments/aprnn_r002_r004/rp001_option_b_four_repair_2026_11_10/P002_J0/common_setup.json",
+      "repository_path": "results/evidence/P002_J0/common_setup.json",
+      "sha256": "1ccce394e13fa0e298360f56898e05151453f150a9894e6c50b80858572eaa50",
+      "size_bytes": 1942,
+      "format": "json",
+      "scientific_purpose": "Saved scientific evidence or authoritative report",
+      "verification_level": "release analysis checks saved predictions/points; no new checkpoint replay",
+      "restrictions": "Third-party model/data rights not relicensed; text transfer may normalize final newline"
+    },
+    {
+      "source_deepnote_path": "experiments/aprnn_r002_r004/rp001_option_b_four_repair_2026_11_10/P002_J0/independent_heldout_predictions.json",
+      "repository_path": "results/evidence/P002_J0/independent_heldout_predictions.json",
+      "sha256": "1b77b8994adc7932e05f12c7cb3ed76f205f2b079c70a3efb97f2ffd2c3933ad",
+      "size_bytes": 282735,
+      "format": "json",
+      "scientific_purpose": "Saved scientific evidence or authoritative report",
+      "verification_level": "release analysis checks saved predictions/points; no new checkpoint replay",
+      "restrictions": "Third-party model/data rights not relicensed; text transfer may normalize final newline"
+    },
+    {
+      "source_deepnote_path": "experiments/aprnn_r002_r004/rp001_option_b_four_repair_2026_11_10/P002_J0/independent_repair_points.json",
+      "repository_path": "results/evidence/P002_J0/independent_repair_points.json",
+      "sha256": "820a1591c776f71282af9049f453d0b1e4dfd3b2c6ba72694c8f85c1ab1ac62a",
+      "size_bytes": 30747,
+      "format": "json",
+      "scientific_purpose": "Saved scientific evidence or authoritative report",
+      "verification_level": "release analysis checks saved predictions/points; no new checkpoint replay",
+      "restrictions": "Third-party model/data rights not relicensed; text transfer may normalize final newline"
+    },
+    {
+      "source_deepnote_path": "experiments/aprnn_r002_r004/rp001_option_b_four_repair_2026_11_10/P002_J1/common_setup.json",
+      "repository_path": "results/evidence/P002_J1/common_setup.json",
+      "sha256": "1ccce394e13fa0e298360f56898e05151453f150a9894e6c50b80858572eaa50",
+      "size_bytes": 1942,
+      "format": "json",
+      "scientific_purpose": "Saved scientific evidence or authoritative report",
+      "verification_level": "release analysis checks saved predictions/points; no new checkpoint replay",
+      "restrictions": "Third-party model/data rights not relicensed; text transfer may normalize final newline"
+    },
+    {
+      "source_deepnote_path": "experiments/aprnn_r002_r004/rp001_option_b_four_repair_2026_11_10/P002_J1/independent_heldout_predictions.json",
+      "repository_path": "results/evidence/P002_J1/independent_heldout_predictions.json",
+      "sha256": "153fd746c07a804026d588267d7ac7c38630f93bb3a48c4d7b87cdf8a0fcb1f6",
+      "size_bytes": 282735,
+      "format": "json",
+      "scientific_purpose": "Saved scientific evidence or authoritative report",
+      "verification_level": "release analysis checks saved predictions/points; no new checkpoint replay",
+      "restrictions": "Third-party model/data rights not relicensed; text transfer may normalize final newline"
+    },
+    {
+      "source_deepnote_path": "experiments/aprnn_r002_r004/rp001_option_b_four_repair_2026_11_10/P002_J1/independent_repair_points.json",
+      "repository_path": "results/evidence/P002_J1/independent_repair_points.json",
+      "sha256": "7c1973077ad72d3db9daaa259a2f43ab01e7b07101368b9fef1f6e991dca02cf",
+      "size_bytes": 31046,
+      "format": "json",
+      "scientific_purpose": "Saved scientific evidence or authoritative report",
+      "verification_level": "release analysis checks saved predictions/points; no new checkpoint replay",
+      "restrictions": "Third-party model/data rights not relicensed; text transfer may normalize final newline"
+    },
+    {
+      "source_deepnote_path": "experiments/aprnn_r002_r004/rp001_option_b_authorized_retry_v14_2026_11_10/RETRY_AUTHORIZATION_AND_MANIFEST.json",
+      "repository_path": "results/evidence/RETRY_AUTHORIZATION_AND_MANIFEST.json",
+      "sha256": "943a4970cdb8a0e322599009a6feda56f0d9dcfbe410e6f6c30c6b0053a21dcd",
+      "size_bytes": 3024,
+      "format": "json",
+      "scientific_purpose": "Saved scientific evidence or authoritative report",
+      "verification_level": "saved source; scope documented in README",
+      "restrictions": "Third-party model/data rights not relicensed; text transfer may normalize final newline"
+    },
+    {
+      "source_deepnote_path": "experiments/aprnn_r002_r004/rp001_option_b_four_repair_2026_11_10/study_manifest.json",
+      "repository_path": "results/evidence/study_manifest.json",
+      "sha256": "0aa6595902140609e2bd13096ccd3e2e4c3c9953fc373c3571d74e9721100b4f",
+      "size_bytes": 2447,
+      "format": "json",
+      "scientific_purpose": "Saved scientific evidence or authoritative report",
+      "verification_level": "saved source; scope documented in README",
+      "restrictions": "Third-party model/data rights not relicensed; text transfer may normalize final newline"
+    },
+    {
+      "source_deepnote_path": "experiments/aprnn_r002_r004/prospective_pilot_2026_11_08/POST_RUN_RECONCILIATION_AND_CONDITIONAL_LOOCV_v1.json",
+      "repository_path": "results/pilot_summary.json",
+      "sha256": "661dbf8a6fa78bc2c4ffd5f47db900b5b3b9246fdccf34e120cac26fe2d8ebf7",
+      "size_bytes": 10957,
+      "format": "json",
+      "scientific_purpose": "Saved scientific evidence or authoritative report",
+      "verification_level": "saved source; scope documented in README",
+      "restrictions": "Third-party model/data rights not relicensed; text transfer may normalize final newline"
+    },
+    {
+      "source_deepnote_path": "experiments/aprnn_r002_r004/rp001_option_b_authorized_retry_v14_2026_11_10/RESULTS_VERIFIED.json",
+      "repository_path": "results/rp001_summary.json",
+      "sha256": "129fa4025a4f57b1ab99c1f73bb035e766a5beb8d0f94e442945cef14583ec9e",
+      "size_bytes": 17935,
+      "format": "json",
+      "scientific_purpose": "Saved scientific evidence or authoritative report",
+      "verification_level": "saved source; scope documented in README",
+      "restrictions": "Third-party model/data rights not relicensed; text transfer may normalize final newline"
+    },
+    {
+      "source_deepnote_path": "reviews/Independent_Final_Scientific_Review_RP001_Option_B_2026-11-10.md",
+      "repository_path": "reviews/Independent_Final_Scientific_Review_RP001_Option_B_2026-11-10.md",
+      "sha256": "e4af90612e1a1a331160d37c3e8782e336599673adee4f579ab81b1119371199",
+      "size_bytes": 5720,
+      "format": "md",
+      "scientific_purpose": "Saved scientific evidence or authoritative report",
+      "verification_level": "release analysis checks saved predictions/points; no new checkpoint replay",
+      "restrictions": "Third-party model/data rights not relicensed; text transfer may normalize final newline"
+    },
+    {
+      "source_deepnote_path": "reviews/RP001_v13_Execution_And_Preoptimization_Failure_2026-11-10.md",
+      "repository_path": "reviews/RP001_v13_Execution_And_Preoptimization_Failure_2026-11-10.md",
+      "sha256": "c7fc8e68d5dc325a18bc42ec0bcefd758948efa514c60ce81d9af44346fbafb8",
+      "size_bytes": 2269,
+      "format": "md",
+      "scientific_purpose": "Saved scientific evidence or authoritative report",
+      "verification_level": "release analysis checks saved predictions/points; no new checkpoint replay",
+      "restrictions": "Third-party model/data rights not relicensed; text transfer may normalize final newline"
+    },
+    {
+      "source_deepnote_path": "experiments/aprnn_r002_r004/rp001_option_b_four_repair_2026_11_10_failed_attempt1/P001_J0/terminal.json",
+      "repository_path": "results/evidence/failed_P001_J0_terminal.json",
+      "sha256": "1cac946e9bd7f7e61377ea1610fce6c7ab839e5f7d4af6d72b466d849f84bc42",
+      "size_bytes": 202,
+      "format": "json",
+      "scientific_purpose": "Preserve unresolved attempt outcome",
+      "verification_level": "saved record",
+      "restrictions": "historical record; no retry or run authorization"
+    },
+    {
+      "source_deepnote_path": "experiments/aprnn_r002_r004/prospective_pilot_2026_11_08/runtime_stage2_2026_11_09/ATTEMPT_P005_RESULT.json",
+      "repository_path": "results/evidence/ATTEMPT_P005_RESULT.json",
+      "sha256": "e80b77e31ebee2f774e873edba9cb4fe9a55e6d5ddcf4fb4e1b369b788e5f1ea",
+      "size_bytes": 197,
+      "format": "json",
+      "scientific_purpose": "Preserve unresolved attempt outcome",
+      "verification_level": "saved record",
+      "restrictions": "historical record; no retry or run authorization"
+    }
+  ],
+  "excluded": [
+    {
+      "artifact": "model checkpoints, dataset images, upstream implementation and runtime overlays",
+      "availability": "not redistributed; no verified public archive supplied",
+      "reason": "rights and public archive access unresolved; optional checkpoint replay unavailable from this package"
+    }
+  ]
+}
