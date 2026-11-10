@@ -1,6 +1,16 @@
 # Research Frontier: APRNN reproducibility and objective sensitivity
 
-An exploratory reproducibility, objective-sensitivity, and negative-results case study by Roberto Huerta, with AI assistance disclosed below. This is a research artifact awaiting sponsor review, not a peer-reviewed publication or an official APRNN extension. There is no claimed collaboration with UC Davis or endorsement by APRNN's authors.
+An exploratory reproducibility, objective-sensitivity, and negative-results case study by Roberto Huerta, with AI assistance disclosed below. This is a bounded research artifact for external scientific criticism, not a peer-reviewed publication or an official APRNN extension. There is no claimed collaboration with UC Davis or endorsement by APRNN's authors.
+
+## What can be reproduced here
+
+| Reproduction level | Availability |
+|---|---|
+| Recalculate reported RP001 tables from archived per-image predictions and selected-point logits; recalculate pilot LOOCV from saved cohort summaries/features | **Available** with the included standard-library analysis |
+| Independently rerun repaired models from checkpoints | **Not available**: checkpoints and a complete public replay environment are not supplied |
+| Independently establish solver correctness, optimality, or formal continuous-domain guarantees | **Not provided** |
+
+This is saved-evidence table reproduction, not end-to-end reproduction of the APRNN experiments. The repository and PR branches are public; draft PR status does not restrict access.
 
 ## Research and principal findings
 
@@ -36,12 +46,14 @@ Use Python 3.10 or later; validated on Python 3.12.14. There are **no third-part
 ```sh
 git clone https://github.com/rhuerta07/research-frontier-aprnn.git
 cd research-frontier-aprnn
-git checkout release/reproducibility-preparation
+git checkout --detach e364c5810cfc783bfeb4a7e1313d9fea6582cb7b
 python analysis/reproduce_tables.py
 python -m unittest discover -s tests -v
 ```
 
-The first command reads immutable saved evidence and prints JSON tables. It verifies release byte hashes, canonical JSON hashes linked to archived replay records, cohort/selected-label identities, cross-run image indices/labels/reference predictions, denominators, selected-point logits/margins, correct counts, correction/break transitions and J1-minus-J0 differences. It recalculates the original frozen LOOCV specification from saved cohort outcomes/features and checks the negative joint decision. Missing, malformed, altered or inconsistent evidence causes a nonzero exit.
+The checkout pins the verified scientific snapshot by full commit SHA and does not depend on the preparation branch remaining available. Later documentation corrections do not change that snapshot's analysis or evidence. To cite a later reviewed revision, record its full commit SHA separately.
+
+The analysis command reads immutable saved evidence and prints JSON tables. It verifies release byte hashes, canonical JSON hashes linked to archived replay records, cohort/selected-label identities, cross-run image indices/labels/reference predictions, denominators, selected-point logits/margins, correct counts, correction/break transitions and J1-minus-J0 differences. It recalculates the original frozen LOOCV specification from saved cohort outcomes/features and checks the negative joint decision. Missing, malformed, altered or inconsistent evidence causes a nonzero exit.
 
 These hashes pin the included evidence and connect it to saved internal records. They are **not external attestation** of its origin. The hash manifest itself is part of the reviewed commit; retain that commit when citing or checking the artifact.
 
@@ -79,4 +91,4 @@ Sponsor-approved licenses: **MIT** for original analysis/test code; **CC BY 4.0*
 
 Author: **Roberto Huerta**. AI assistance: **ChatGPT research team**, credited as an assistance disclosure, not as a human author or independent scholarly reviewer. AI assistance supported analysis, engineering, writing and saved-evidence review; the author remains responsible for scholarly claims. No affiliations or credentials are asserted. Citation metadata is in [CITATION.cff](CITATION.cff).
 
-Do not merge, tag, or distribute this preparation package to external reviewers until the sponsor approves the final handoff.
+The sponsor issued a Qualified PASS subject to the documentation corrections above and recommended merge followed by external scientific criticism. The sponsor inspected the code but did not independently rerun the tests; reported execution results remain the engineer's evidence. Formal artifact-evaluation certification has not been established.
