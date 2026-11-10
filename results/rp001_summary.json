@@ -1,0 +1,593 @@
+{
+  "pairs": {
+    "P001": {
+      "common_setup_match": true,
+      "common_sha256": "e83bd466da6baffff9a113510c6176fb2bb4dd5b0c9df46681b82013294831d0",
+      "domains": {
+        "fog_primary": {
+          "j0": {
+            "baseline_correct": 1771,
+            "breaks": 222,
+            "correct": 5087,
+            "corrections": 3538
+          },
+          "j0_vs_j1": {
+            "both_correct": 4340,
+            "both_wrong": 2876,
+            "candidate_only": 937,
+            "class_disagreement": 2757,
+            "reference_only": 747
+          },
+          "j1": {
+            "baseline_correct": 1771,
+            "breaks": 272,
+            "correct": 5277,
+            "corrections": 3778
+          },
+          "j1_minus_j0_correct": 190,
+          "j1_minus_j0_pp": 2.134831460674157,
+          "n": 8900
+        },
+        "identity_full": {
+          "j0": {
+            "baseline_correct": 9654,
+            "breaks": 224,
+            "correct": 9489,
+            "corrections": 59
+          },
+          "j0_vs_j1": {
+            "both_correct": 9327,
+            "both_wrong": 383,
+            "candidate_only": 128,
+            "class_disagreement": 337,
+            "reference_only": 162
+          },
+          "j1": {
+            "baseline_correct": 9654,
+            "breaks": 236,
+            "correct": 9455,
+            "corrections": 37
+          },
+          "j1_minus_j0_correct": -34,
+          "j1_minus_j0_pp": -0.34,
+          "n": 10000
+        },
+        "identity_primary": {
+          "j0": {
+            "baseline_correct": 8595,
+            "breaks": 196,
+            "correct": 8448,
+            "corrections": 49
+          },
+          "j0_vs_j1": {
+            "both_correct": 8306,
+            "both_wrong": 337,
+            "candidate_only": 115,
+            "class_disagreement": 302,
+            "reference_only": 142
+          },
+          "j1": {
+            "baseline_correct": 8595,
+            "breaks": 207,
+            "correct": 8421,
+            "corrections": 33
+          },
+          "j1_minus_j0_correct": -27,
+          "j1_minus_j0_pp": -0.30337078651685395,
+          "n": 8900
+        }
+      }
+    },
+    "P002": {
+      "common_setup_match": true,
+      "common_sha256": "3ef50d53efdcd08b0dd1a939ac1c91645f5ef05332840e6e06f26553d197c87c",
+      "domains": {
+        "fog_primary": {
+          "j0": {
+            "baseline_correct": 1771,
+            "breaks": 245,
+            "correct": 4736,
+            "corrections": 3210
+          },
+          "j0_vs_j1": {
+            "both_correct": 3907,
+            "both_wrong": 3047,
+            "candidate_only": 1117,
+            "class_disagreement": 3061,
+            "reference_only": 829
+          },
+          "j1": {
+            "baseline_correct": 1771,
+            "breaks": 448,
+            "correct": 5024,
+            "corrections": 3701
+          },
+          "j1_minus_j0_correct": 288,
+          "j1_minus_j0_pp": 3.235955056179775,
+          "n": 8900
+        },
+        "identity_full": {
+          "j0": {
+            "baseline_correct": 9654,
+            "breaks": 334,
+            "correct": 9360,
+            "corrections": 40
+          },
+          "j0_vs_j1": {
+            "both_correct": 9195,
+            "both_wrong": 463,
+            "candidate_only": 177,
+            "class_disagreement": 401,
+            "reference_only": 165
+          },
+          "j1": {
+            "baseline_correct": 9654,
+            "breaks": 310,
+            "correct": 9372,
+            "corrections": 28
+          },
+          "j1_minus_j0_correct": 12,
+          "j1_minus_j0_pp": 0.12,
+          "n": 10000
+        },
+        "identity_primary": {
+          "j0": {
+            "baseline_correct": 8595,
+            "breaks": 300,
+            "correct": 8327,
+            "corrections": 32
+          },
+          "j0_vs_j1": {
+            "both_correct": 8188,
+            "both_wrong": 413,
+            "candidate_only": 160,
+            "class_disagreement": 348,
+            "reference_only": 139
+          },
+          "j1": {
+            "baseline_correct": 8595,
+            "breaks": 272,
+            "correct": 8348,
+            "corrections": 25
+          },
+          "j1_minus_j0_correct": 21,
+          "j1_minus_j0_pp": 0.23595505617977527,
+          "n": 8900
+        }
+      }
+    }
+  },
+  "retry_failure_preserved": "/work/experiments/aprnn_r002_r004/rp001_option_b_four_repair_2026_11_10_failed_attempt1",
+  "run_id": "e891e008-803d-4abf-ac2a-30ca90a53385",
+  "slots": {
+    "P001_J0": {
+      "replay": {
+        "activation_gate_violations": 0,
+        "activation_gates_pass": true,
+        "checkpoint_sha256": "7308a1a8730fcdfb7d04991f66a4688cc7e740a51c083a84f322bc3a1801893e",
+        "constraint_tolerance": 1e-06,
+        "delta_bound": 3.0,
+        "delta_tolerance": 1e-08,
+        "editable_shapes": {
+          "2.bias": [
+            100
+          ],
+          "2.weight": [
+            100,
+            100
+          ],
+          "4.bias": [
+            10
+          ]
+        },
+        "epsilon": 0.001,
+        "fog": {
+          "end": 10000,
+          "n": 8900,
+          "original_correct": 1771,
+          "repaired_correct": 5087,
+          "start": 1100
+        },
+        "frozen_parameters_unchanged": true,
+        "frozen_unchanged": true,
+        "heldout": {
+          "fog": {
+            "end": 10000,
+            "n": 8900,
+            "original_correct": 1771,
+            "repaired_correct": 5087,
+            "start": 1100
+          },
+          "identity": {
+            "end": 10000,
+            "n": 10000,
+            "original_correct": 9654,
+            "repaired_correct": 9489,
+            "start": 0
+          }
+        },
+        "heldout_predictions_sha256": "80cf8c6575990fcde47f0547244b03f3b64eab88cc8c95269f50bd7ccbdda744",
+        "identity": {
+          "end": 10000,
+          "n": 10000,
+          "original_correct": 9654,
+          "repaired_correct": 9489,
+          "start": 0
+        },
+        "manifest_sha256": "b0224e763a06edde7d20741568fcb99f26d6028587710303afa2bc6cb42ebcfd",
+        "max_absolute_editable_delta": 2.137233589806425,
+        "min_margin": 0.0009999999492527056,
+        "numerically_fragile": true,
+        "points_sha256": "917e65fa599a48ee47fd9960e5df9b6f7ca7ef39119e2c738816c0cba340e08e",
+        "reference_model_sha256": "e4151dfced1783360ab8353c8fdedbfd76f712c2c56e4b14799b2f989217229f",
+        "repair_points_pass": true,
+        "run_id": "P001_J0",
+        "solver_status_verified": false,
+        "verified_checkpoint_sha256": "7308a1a8730fcdfb7d04991f66a4688cc7e740a51c083a84f322bc3a1801893e"
+      },
+      "selected_count": 100,
+      "solver": {
+        "bound_violation": 0.0,
+        "constraint_violation": 6.230882476643274e-11,
+        "manifest_sha256": "b0224e763a06edde7d20741568fcb99f26d6028587710303afa2bc6cb42ebcfd",
+        "objective": 3.484409112313483,
+        "policy_sha256": "e37a629cb23c4650ed8ab2d8c832930f26312ec81c59d94e5f9be67911fc1968",
+        "raw_status": 2,
+        "run_id": "P001_J0",
+        "settings": {
+          "BarConvTol": 1e-08,
+          "Crossover": 0,
+          "FeasibilityTol": 1e-06,
+          "Method": 2,
+          "NumericFocus": 0,
+          "OptimalityTol": 1e-06,
+          "Presolve": 1,
+          "Threads": 2,
+          "TimeLimit": 900.0
+        },
+        "solution_count": 1,
+        "status": "OPTIMAL"
+      },
+      "terminal": {
+        "replay": {
+          "process_group_absent": true,
+          "returncode": 0,
+          "stop_requested": false,
+          "timeout": false
+        },
+        "slot": "P001_J0",
+        "status": "REPLAY_PASSED",
+        "worker": {
+          "process_group_absent": true,
+          "returncode": 0,
+          "stop_requested": false,
+          "timeout": false
+        }
+      }
+    },
+    "P001_J1": {
+      "replay": {
+        "activation_gate_violations": 0,
+        "activation_gates_pass": true,
+        "checkpoint_sha256": "674fafeaabf29e0df4e5ff5f44d23108493bbc342e47714c9d9ac3c7d1b663b4",
+        "constraint_tolerance": 1e-06,
+        "delta_bound": 3.0,
+        "delta_tolerance": 1e-08,
+        "editable_shapes": {
+          "2.bias": [
+            100
+          ],
+          "2.weight": [
+            100,
+            100
+          ],
+          "4.bias": [
+            10
+          ]
+        },
+        "epsilon": 0.001,
+        "fog": {
+          "end": 10000,
+          "n": 8900,
+          "original_correct": 1771,
+          "repaired_correct": 5277,
+          "start": 1100
+        },
+        "frozen_parameters_unchanged": true,
+        "frozen_unchanged": true,
+        "heldout": {
+          "fog": {
+            "end": 10000,
+            "n": 8900,
+            "original_correct": 1771,
+            "repaired_correct": 5277,
+            "start": 1100
+          },
+          "identity": {
+            "end": 10000,
+            "n": 10000,
+            "original_correct": 9654,
+            "repaired_correct": 9455,
+            "start": 0
+          }
+        },
+        "heldout_predictions_sha256": "9e91bb325fb1ff37b7e3425bba61da241d78e2aee0d0c00ef8c6d896974e010d",
+        "identity": {
+          "end": 10000,
+          "n": 10000,
+          "original_correct": 9654,
+          "repaired_correct": 9455,
+          "start": 0
+        },
+        "manifest_sha256": "b0224e763a06edde7d20741568fcb99f26d6028587710303afa2bc6cb42ebcfd",
+        "max_absolute_editable_delta": 0.095826352982189,
+        "min_margin": 0.0009999999997288844,
+        "numerically_fragile": true,
+        "points_sha256": "e9f6b40fde5dbe4da6a0052758d60cb2a47a007f62004f3b5905a6ad378f1ff5",
+        "reference_model_sha256": "e4151dfced1783360ab8353c8fdedbfd76f712c2c56e4b14799b2f989217229f",
+        "repair_points_pass": true,
+        "run_id": "P001_J1",
+        "solver_status_verified": false,
+        "verified_checkpoint_sha256": "674fafeaabf29e0df4e5ff5f44d23108493bbc342e47714c9d9ac3c7d1b663b4"
+      },
+      "selected_count": 100,
+      "solver": {
+        "bound_violation": 0.0,
+        "constraint_violation": 1.2920331471377722e-11,
+        "manifest_sha256": "b0224e763a06edde7d20741568fcb99f26d6028587710303afa2bc6cb42ebcfd",
+        "objective": 0.10987410350868107,
+        "policy_sha256": "e37a629cb23c4650ed8ab2d8c832930f26312ec81c59d94e5f9be67911fc1968",
+        "raw_status": 2,
+        "run_id": "P001_J1",
+        "settings": {
+          "BarConvTol": 1e-08,
+          "Crossover": 0,
+          "FeasibilityTol": 1e-06,
+          "Method": 2,
+          "NumericFocus": 0,
+          "OptimalityTol": 1e-06,
+          "Presolve": 1,
+          "Threads": 2,
+          "TimeLimit": 900.0
+        },
+        "solution_count": 1,
+        "status": "OPTIMAL"
+      },
+      "terminal": {
+        "replay": {
+          "process_group_absent": true,
+          "returncode": 0,
+          "stop_requested": false,
+          "timeout": false
+        },
+        "slot": "P001_J1",
+        "status": "REPLAY_PASSED",
+        "worker": {
+          "process_group_absent": true,
+          "returncode": 0,
+          "stop_requested": false,
+          "timeout": false
+        }
+      }
+    },
+    "P002_J0": {
+      "replay": {
+        "activation_gate_violations": 0,
+        "activation_gates_pass": true,
+        "checkpoint_sha256": "6cb9b6a3d56832a3d3772c0051ea2a53000bc490e53ca66750e4e0ab85496bf7",
+        "constraint_tolerance": 1e-06,
+        "delta_bound": 3.0,
+        "delta_tolerance": 1e-08,
+        "editable_shapes": {
+          "2.bias": [
+            100
+          ],
+          "2.weight": [
+            100,
+            100
+          ],
+          "4.bias": [
+            10
+          ]
+        },
+        "epsilon": 0.001,
+        "fog": {
+          "end": 10000,
+          "n": 8900,
+          "original_correct": 1771,
+          "repaired_correct": 4736,
+          "start": 1100
+        },
+        "frozen_parameters_unchanged": true,
+        "frozen_unchanged": true,
+        "heldout": {
+          "fog": {
+            "end": 10000,
+            "n": 8900,
+            "original_correct": 1771,
+            "repaired_correct": 4736,
+            "start": 1100
+          },
+          "identity": {
+            "end": 10000,
+            "n": 10000,
+            "original_correct": 9654,
+            "repaired_correct": 9360,
+            "start": 0
+          }
+        },
+        "heldout_predictions_sha256": "d1dc9bf16ca66ea980ba0756a35eff52f3eac59df9ad83a46b6e9383a80f28b5",
+        "identity": {
+          "end": 10000,
+          "n": 10000,
+          "original_correct": 9654,
+          "repaired_correct": 9360,
+          "start": 0
+        },
+        "manifest_sha256": "b0224e763a06edde7d20741568fcb99f26d6028587710303afa2bc6cb42ebcfd",
+        "max_absolute_editable_delta": 2.9999999803067414,
+        "min_margin": 0.001000000002852719,
+        "numerically_fragile": true,
+        "points_sha256": "e6bf6fa8a80a97455cf808559657571b2fcc21aeeefd69a358346dcbbbcb2e22",
+        "reference_model_sha256": "e4151dfced1783360ab8353c8fdedbfd76f712c2c56e4b14799b2f989217229f",
+        "repair_points_pass": true,
+        "run_id": "P002_J0",
+        "solver_status_verified": false,
+        "verified_checkpoint_sha256": "6cb9b6a3d56832a3d3772c0051ea2a53000bc490e53ca66750e4e0ab85496bf7"
+      },
+      "selected_count": 100,
+      "solver": {
+        "bound_violation": 0.0,
+        "constraint_violation": 1.404210081545898e-12,
+        "manifest_sha256": "b0224e763a06edde7d20741568fcb99f26d6028587710303afa2bc6cb42ebcfd",
+        "objective": 3.6284703766665483,
+        "policy_sha256": "e37a629cb23c4650ed8ab2d8c832930f26312ec81c59d94e5f9be67911fc1968",
+        "raw_status": 2,
+        "run_id": "P002_J0",
+        "settings": {
+          "BarConvTol": 1e-08,
+          "Crossover": 0,
+          "FeasibilityTol": 1e-06,
+          "Method": 2,
+          "NumericFocus": 0,
+          "OptimalityTol": 1e-06,
+          "Presolve": 1,
+          "Threads": 2,
+          "TimeLimit": 900.0
+        },
+        "solution_count": 1,
+        "status": "OPTIMAL"
+      },
+      "terminal": {
+        "replay": {
+          "process_group_absent": true,
+          "returncode": 0,
+          "stop_requested": false,
+          "timeout": false
+        },
+        "slot": "P002_J0",
+        "status": "REPLAY_PASSED",
+        "worker": {
+          "process_group_absent": true,
+          "returncode": 0,
+          "stop_requested": false,
+          "timeout": false
+        }
+      }
+    },
+    "P002_J1": {
+      "replay": {
+        "activation_gate_violations": 0,
+        "activation_gates_pass": true,
+        "checkpoint_sha256": "9cbd62395ceb313479f1898eb75d1f05081b40d83d83dd12dbc852e761436ca1",
+        "constraint_tolerance": 1e-06,
+        "delta_bound": 3.0,
+        "delta_tolerance": 1e-08,
+        "editable_shapes": {
+          "2.bias": [
+            100
+          ],
+          "2.weight": [
+            100,
+            100
+          ],
+          "4.bias": [
+            10
+          ]
+        },
+        "epsilon": 0.001,
+        "fog": {
+          "end": 10000,
+          "n": 8900,
+          "original_correct": 1771,
+          "repaired_correct": 5024,
+          "start": 1100
+        },
+        "frozen_parameters_unchanged": true,
+        "frozen_unchanged": true,
+        "heldout": {
+          "fog": {
+            "end": 10000,
+            "n": 8900,
+            "original_correct": 1771,
+            "repaired_correct": 5024,
+            "start": 1100
+          },
+          "identity": {
+            "end": 10000,
+            "n": 10000,
+            "original_correct": 9654,
+            "repaired_correct": 9372,
+            "start": 0
+          }
+        },
+        "heldout_predictions_sha256": "1d622fabcfc7b3300b9963ff7abb3fa2d151ea5181adf598822345008c19568b",
+        "identity": {
+          "end": 10000,
+          "n": 10000,
+          "original_correct": 9654,
+          "repaired_correct": 9372,
+          "start": 0
+        },
+        "manifest_sha256": "b0224e763a06edde7d20741568fcb99f26d6028587710303afa2bc6cb42ebcfd",
+        "max_absolute_editable_delta": 0.09031291953187148,
+        "min_margin": 0.0009999999990780162,
+        "numerically_fragile": true,
+        "points_sha256": "f9e0343d7d25399d99d6ebcca5cf810e34814409e4c18a745c280a080f90ffba",
+        "reference_model_sha256": "e4151dfced1783360ab8353c8fdedbfd76f712c2c56e4b14799b2f989217229f",
+        "repair_points_pass": true,
+        "run_id": "P002_J1",
+        "solver_status_verified": false,
+        "verified_checkpoint_sha256": "9cbd62395ceb313479f1898eb75d1f05081b40d83d83dd12dbc852e761436ca1"
+      },
+      "selected_count": 100,
+      "solver": {
+        "bound_violation": 0.0,
+        "constraint_violation": 1.9819007546217904e-12,
+        "manifest_sha256": "b0224e763a06edde7d20741568fcb99f26d6028587710303afa2bc6cb42ebcfd",
+        "objective": 0.10381536523392385,
+        "policy_sha256": "e37a629cb23c4650ed8ab2d8c832930f26312ec81c59d94e5f9be67911fc1968",
+        "raw_status": 2,
+        "run_id": "P002_J1",
+        "settings": {
+          "BarConvTol": 1e-08,
+          "Crossover": 0,
+          "FeasibilityTol": 1e-06,
+          "Method": 2,
+          "NumericFocus": 0,
+          "OptimalityTol": 1e-06,
+          "Presolve": 1,
+          "Threads": 2,
+          "TimeLimit": 900.0
+        },
+        "solution_count": 1,
+        "status": "OPTIMAL"
+      },
+      "terminal": {
+        "replay": {
+          "process_group_absent": true,
+          "returncode": 0,
+          "stop_requested": false,
+          "timeout": false
+        },
+        "slot": "P002_J1",
+        "status": "REPLAY_PASSED",
+        "worker": {
+          "process_group_absent": true,
+          "returncode": 0,
+          "stop_requested": false,
+          "timeout": false
+        }
+      }
+    }
+  },
+  "study_terminal": {
+    "slots": [
+      "P001_J0",
+      "P001_J1",
+      "P002_J0",
+      "P002_J1"
+    ],
+    "status": "FOUR_REPLAYS_PASSED"
+  }
+}

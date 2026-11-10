@@ -1,0 +1,2 @@
+{"error": "worker failure: {\"returncode\": 1, \"timeout\": false, \"stop_requested\": false, \"process_group_absent\": true}", "error_type": "RuntimeError", "slot": "P001_J0", "status": "UNRESOLVED"}
+
