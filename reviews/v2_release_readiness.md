@@ -1,3 +1,5 @@
+> Historical v2r5 preparation handoff. The current manuscript is [v2r6](../paper/integrated_manuscript_v2r6.md); see the [documentation closeout](v2r6_documentation_closeout.md) for the required corrections and current merge-approval boundary. The evidence gaps below remain disclosed, rather than being presented as recovered.
+
 # Preprint v2r5 release handoff — 11 November 2026 UTC
 
 **Decision: ready for a focused draft PR; keep unmerged pending research-lead review.** This is a release of available evidence, with explicit gaps. It is not complete public numerical reproducibility or publication certification. The research lead owns manuscript interpretation and editing.

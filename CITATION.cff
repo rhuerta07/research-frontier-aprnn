@@ -7,4 +7,4 @@ authors:
     given-names: Roberto
 repository-code: "https://github.com/rhuerta07/research-frontier-aprnn"
 abstract: "Exploratory reproducibility, objective-sensitivity, and negative-results case study. AI assistance from the ChatGPT research team is disclosed in README.md. Not a peer-reviewed publication."
-version: "2r5"
+version: "2r6"
