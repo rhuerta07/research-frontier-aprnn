@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "scalar_class_rows_reconstructed": 156,
+  "input_hashes": {
+    "upload/ORIGINAL_LOGITS.npz": "ef356769710266f255539755b3a035975ac37814d49a4e46ad5fe46c30659e6b",
+    "ten_bias_diagnostic/FROZEN_PILOT_COHORTS.json": "3192c9f24785b16dea74bbc86d05e40c08926a007af2ec8d2bfb770a8a4a3fb6",
+    "aprnn_review_37d8165/results/evidence/FROZEN_PILOT_PRE_REPAIR_FEATURES.json": "611912544fffa6be6417027003bfedd677f6fd7c6969e2677bbfe657df134566",
+    "reviewer_packet_v2r1/TEN_BIAS_DESIGN_FOR_APPROVAL.md": "2f58354a65958ef6ff4762096726607cd97a246581159f116e2ccd35fd06598c",
+    "reviewer_packet_v2r1/D1_SELECTION.csv": "20c710ec49ef2759e477928793b62731da37126113301f2bc24888a393ccf356",
+    "reviewer_packet_v2r1/D2_CLASS_TABLE.csv": "cf726d174163554a54d3594bfdcf2fa3b917b16f64403ddec709607f0aadeefc",
+    "aprnn_review_37d8165/results/evidence/P001_J0/independent_heldout_predictions.json": "0451c609ac0202aaca501821c1ed723b21ca81984372e9bcc5f030ebdee5e73a",
+    "aprnn_review_37d8165/results/evidence/P001_J1/independent_heldout_predictions.json": "5ece3a8ff2dbcbeaf4f0f2e4c7b6e7e217efe6568e362dc733603c0f78e90497",
+    "aprnn_review_37d8165/results/evidence/P002_J0/independent_heldout_predictions.json": "1b77b8994adc7932e05f12c7cb3ed76f205f2b079c70a3efb97f2ffd2c3933ad",
+    "aprnn_review_37d8165/results/evidence/P002_J1/independent_heldout_predictions.json": "153fd746c07a804026d588267d7ac7c38630f93bb3a48c4d7b87cdf8a0fcb1f6"
+  },
+  "numerical_checks": {
+    "gradient_max_error": 1.771477409207023e-11,
+    "checks": 4
+  },
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "source_sha256": "0b332751ffcb98d66afd53fd1af20df702fb780ddb116f341b7be0cce4ac255c"
+}

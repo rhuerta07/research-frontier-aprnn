@@ -1,0 +1,106 @@
+{
+  "checks": {
+    "fog": {
+      "archived_4x_baselines_match": true,
+      "both_npz_baselines_match": true,
+      "n": 10000,
+      "original_correct": 1954
+    },
+    "identity": {
+      "archived_4x_baselines_match": true,
+      "both_npz_baselines_match": true,
+      "n": 10000,
+      "original_correct": 9654
+    }
+  },
+  "inference_populations": "one pass per domain, 10000 fog plus10000 clean; selected included in fog",
+  "inputs": {
+    "/work/experiments/APRNN_PER_IMAGE_PREDICTIONS_R001.npz": {
+      "bytes": 72462,
+      "sha256": "0073da7a8c2ab32da9b0197f52a9279b7c643e18de86decd655fd22b8499a44a"
+    },
+    "/work/experiments/aprnn_r002_r004/prospective_pilot_2026_11_08/FROZEN_PILOT_COHORTS.json": {
+      "bytes": 3977,
+      "sha256": "3192c9f24785b16dea74bbc86d05e40c08926a007af2ec8d2bfb770a8a4a3fb6"
+    },
+    "/work/experiments/aprnn_r002_r004/prospective_pilot_2026_11_08/FROZEN_PILOT_PRE_REPAIR_FEATURES.json": {
+      "bytes": 25050,
+      "sha256": "f412db3aa4eb3c7b9f71205a62c1e752553bbddb42af319048d9c52509f3436b"
+    },
+    "/work/experiments/aprnn_r002_r004/rp001_option_b_four_repair_2026_11_10/P001_J0/independent_heldout_predictions.json": {
+      "bytes": 282735,
+      "sha256": "0451c609ac0202aaca501821c1ed723b21ca81984372e9bcc5f030ebdee5e73a"
+    },
+    "/work/experiments/aprnn_r002_r004/rp001_option_b_four_repair_2026_11_10/P001_J0/independent_repair_points.json": {
+      "bytes": 30742,
+      "sha256": "7eea59b99da754c029161b5573738a7679a1bd8d71e8110d9d4926e2c5abc64d"
+    },
+    "/work/experiments/aprnn_r002_r004/rp001_option_b_four_repair_2026_11_10/P001_J1/independent_heldout_predictions.json": {
+      "bytes": 282735,
+      "sha256": "5ece3a8ff2dbcbeaf4f0f2e4c7b6e7e217efe6568e362dc733603c0f78e90497"
+    },
+    "/work/experiments/aprnn_r002_r004/rp001_option_b_four_repair_2026_11_10/P001_J1/independent_repair_points.json": {
+      "bytes": 31112,
+      "sha256": "f0ff0df4721b455ec71c37886bccb9d3e17b6e38a5845a34e5a70927b4dca19e"
+    },
+    "/work/experiments/aprnn_r002_r004/rp001_option_b_four_repair_2026_11_10/P002_J0/independent_heldout_predictions.json": {
+      "bytes": 282735,
+      "sha256": "1b77b8994adc7932e05f12c7cb3ed76f205f2b079c70a3efb97f2ffd2c3933ad"
+    },
+    "/work/experiments/aprnn_r002_r004/rp001_option_b_four_repair_2026_11_10/P002_J0/independent_repair_points.json": {
+      "bytes": 30746,
+      "sha256": "dbd6853158bee06632fa7f71b88f6324d6d65c5d5f594aa83afa6bdd04e7e472"
+    },
+    "/work/experiments/aprnn_r002_r004/rp001_option_b_four_repair_2026_11_10/P002_J1/independent_heldout_predictions.json": {
+      "bytes": 282735,
+      "sha256": "153fd746c07a804026d588267d7ac7c38630f93bb3a48c4d7b87cdf8a0fcb1f6"
+    },
+    "/work/experiments/aprnn_r002_r004/rp001_option_b_four_repair_2026_11_10/P002_J1/independent_repair_points.json": {
+      "bytes": 31045,
+      "sha256": "ed2bca381863e788bfb67fd9c09cd6cbf8dfe26d66866a7eef96e5fb498f20d9"
+    },
+    "/work/experiments/aprnn_r002_r004/rp001_u0_i0_setup_candidate_v7_2026_11_09/inputs/data/mnist_c/fog/test_images.npy": {
+      "bytes": 7840128,
+      "sha256": "8f48ea89b4793c45bedda39bd27b42710f4f0cbf5bced559597c015157188488"
+    },
+    "/work/experiments/aprnn_r002_r004/rp001_u0_i0_setup_candidate_v7_2026_11_09/inputs/data/mnist_c/fog/test_labels.npy": {
+      "bytes": 80128,
+      "sha256": "996074233ccae69ee65b8551233f608adc1bce84b6b440e3531478a847958149"
+    },
+    "/work/experiments/aprnn_r002_r004/rp001_u0_i0_setup_candidate_v7_2026_11_09/inputs/data/mnist_c/identity/test_images.npy": {
+      "bytes": 7840128,
+      "sha256": "c544e9053023b30ffd401a9825696f84af6fb1eb822bba5fcffc6992808357c3"
+    },
+    "/work/experiments/aprnn_r002_r004/rp001_u0_i0_setup_candidate_v7_2026_11_09/inputs/data/mnist_c/identity/test_labels.npy": {
+      "bytes": 80128,
+      "sha256": "996074233ccae69ee65b8551233f608adc1bce84b6b440e3531478a847958149"
+    },
+    "/work/experiments/aprnn_r002_r004/rp001_u0_i0_setup_candidate_v7_2026_11_09/inputs/models/mnist/mnist_relu_3_100.tf": {
+      "bytes": 1940131,
+      "sha256": "e4151dfced1783360ab8353c8fdedbfd76f712c2c56e4b14799b2f989217229f"
+    },
+    "/work/experiments/aprnn_repair_r001/paired_replay_r001/paired_predictions.npz": {
+      "bytes": 81526,
+      "sha256": "33c995bc2987a29ce012dbb1a91b669f44d19c845fce71cbe2a69195d73d8688"
+    }
+  },
+  "preprocessing": "raw uint8 /255, reshape784, pinned ERAN float32 assignment then float64, 2 torch threads",
+  "public_blob_checks": {
+    "results/evidence/FROZEN_PILOT_COHORTS.json": "public file has one extra final newline",
+    "results/evidence/FROZEN_PILOT_PRE_REPAIR_FEATURES.json": "public file has one extra final newline",
+    "results/evidence/P001_J0/independent_heldout_predictions.json": "exact",
+    "results/evidence/P001_J0/independent_repair_points.json": "public file has one extra final newline",
+    "results/evidence/P001_J1/independent_heldout_predictions.json": "exact",
+    "results/evidence/P001_J1/independent_repair_points.json": "public file has one extra final newline",
+    "results/evidence/P002_J0/independent_heldout_predictions.json": "exact",
+    "results/evidence/P002_J0/independent_repair_points.json": "public file has one extra final newline",
+    "results/evidence/P002_J1/independent_heldout_predictions.json": "exact",
+    "results/evidence/P002_J1/independent_repair_points.json": "public file has one extra final newline"
+  },
+  "public_commit": "37d81655fca7857032360e8df831c284c51dfe93",
+  "runtime": {
+    "numpy": "2.4.6",
+    "python": "3.13.18 (main, Oct 28 2026, 14:29:13) [GCC 12.2.0]",
+    "torch": "2.12.0+cu130"
+  }
+}

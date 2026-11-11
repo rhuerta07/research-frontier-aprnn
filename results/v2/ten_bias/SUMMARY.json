@@ -1,0 +1,126 @@
+{
+  "P001": {
+    "fog_primary": {
+      "n": 8900,
+      "correct": 4446,
+      "baseline_correct": 1771,
+      "corrections": 3291,
+      "breaks": 616,
+      "accuracy": 0.4995505617977528,
+      "predicted_class_counts": [
+        806,
+        695,
+        1950,
+        883,
+        1482,
+        1060,
+        423,
+        209,
+        696,
+        696
+      ]
+    },
+    "clean_primary": {
+      "n": 8900,
+      "correct": 8227,
+      "baseline_correct": 8595,
+      "corrections": 31,
+      "breaks": 399,
+      "accuracy": 0.9243820224719101,
+      "predicted_class_counts": [
+        913,
+        1112,
+        863,
+        879,
+        838,
+        861,
+        889,
+        1193,
+        617,
+        735
+      ]
+    },
+    "clean_full": {
+      "n": 10000,
+      "correct": 9229,
+      "baseline_correct": 9654,
+      "corrections": 37,
+      "breaks": 462,
+      "accuracy": 0.9229,
+      "predicted_class_counts": [
+        1008,
+        1266,
+        982,
+        990,
+        960,
+        968,
+        985,
+        1342,
+        680,
+        819
+      ]
+    }
+  },
+  "P002": {
+    "fog_primary": {
+      "n": 8900,
+      "correct": 4296,
+      "baseline_correct": 1771,
+      "corrections": 3191,
+      "breaks": 666,
+      "accuracy": 0.48269662921348316,
+      "predicted_class_counts": [
+        724,
+        1121,
+        1765,
+        1096,
+        1520,
+        548,
+        150,
+        74,
+        452,
+        1450
+      ]
+    },
+    "clean_primary": {
+      "n": 8900,
+      "correct": 8263,
+      "baseline_correct": 8595,
+      "corrections": 25,
+      "breaks": 357,
+      "accuracy": 0.9284269662921348,
+      "predicted_class_counts": [
+        919,
+        1136,
+        866,
+        903,
+        845,
+        845,
+        881,
+        1122,
+        599,
+        784
+      ]
+    },
+    "clean_full": {
+      "n": 10000,
+      "correct": 9277,
+      "baseline_correct": 9654,
+      "corrections": 30,
+      "breaks": 407,
+      "accuracy": 0.9277,
+      "predicted_class_counts": [
+        1016,
+        1292,
+        987,
+        1015,
+        967,
+        950,
+        973,
+        1260,
+        661,
+        879
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "argmax": "float64 numpy.argmax, lowest class index on exact ties",
+  "candidates": "sorted unique endpoints 0 and (bounded)3, nonnegative applicable thresholds, midpoint of every consecutive endpoint/threshold; unrestricted adds largest nonnegative endpoint + max(1,abs(endpoint))",
+  "floating_point": "IEEE float64 thresholds, direct subtraction for predictions; candidate decimal and hex retained",
+  "heldout_sweep": false,
+  "heuristic": "absolute accuracy difference <=1 percentage point on EACH primary domain, and scalar true8 errors <= repair true8 errors on EACH primary domain",
+  "heuristic_scope": "exploratory retrospective decision rule, not statistical equivalence",
+  "primary": "tau in [0,3]",
+  "schema": "class8-selected-only-v1",
+  "secondary": "tau >= 0",
+  "selection": "minimum selected classification errors, then smallest numerical tau",
+  "selection_population": "each cohort own frozen 100 selected fog examples only",
+  "threshold": "selected z8 - max(selected non8 logits)",
+  "transform": "z8 -= tau; other logits unchanged"
+}

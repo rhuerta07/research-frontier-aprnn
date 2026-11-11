@@ -1,0 +1,5 @@
+cohort,diagnostic,tau,tau_hex,selected_correct,selected_n,candidate_count,best_error_tie_candidates
+P001,bounded,2.949566729136976,0x1.798b670f81aa1p+1,40,100,149,4
+P001,unrestricted,3.565288818344169,0x1.c85b624dca95ap+1,43,100,178,8
+P002,bounded,2.927489965949844,0x1.76b7fdbf8fb5cp+1,38,100,139,3
+P002,unrestricted,3.585779341447035,0x1.cafad14517fddp+1,41,100,182,6

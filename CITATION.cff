@@ -1,9 +1,10 @@
 cff-version: 1.2.0
 message: "Please cite the reviewed commit of this exploratory research artifact."
-title: "Research Frontier: APRNN reproducibility and objective sensitivity"
+title: "Class-resolved behavior under two APRNN repair objectives: a reproducibility case study in a fog-induced prediction-collapse regime"
 type: software
 authors:
   - family-names: Huerta
     given-names: Roberto
 repository-code: "https://github.com/rhuerta07/research-frontier-aprnn"
 abstract: "Exploratory reproducibility, objective-sensitivity, and negative-results case study. AI assistance from the ChatGPT research team is disclosed in README.md. Not a peer-reviewed publication."
+version: "2r6"

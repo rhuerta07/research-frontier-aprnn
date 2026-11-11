@@ -1,6 +1,43 @@
-# Research Frontier: APRNN reproducibility and objective sensitivity
+# Research Frontier: class-resolved APRNN repair behavior
 
 An exploratory reproducibility, objective-sensitivity, and negative-results case study by Roberto Huerta, with AI assistance disclosed below. This is a bounded research artifact for external scientific criticism, not a peer-reviewed publication or an official APRNN extension. There is no claimed collaboration with UC Davis or endorsement by APRNN's authors.
+
+
+**Current draft:** [manuscript v2r6](paper/integrated_manuscript_v2r6.md), with documentation-only evidence-availability corrections. [Historical v2r5](paper/integrated_manuscript_v2r5.md) remains preserved verbatim. [V1 manuscript](paper/integrated_manuscript.md) and frozen commit `37d81655fca7857032360e8df831c284c51dfe93` remain available. The v2 question is how objective-dependent fog gains and clean losses divide across true classes, and how much selected-only output calibration reproduces. Aggregate gains include a substantial true-8/non-8 tradeoff; smaller parameter edits do not establish safer behavior.
+
+**Release limitations:** [readiness and missing-artifact manifest](reviews/v2_release_readiness.md). Later reviewer-vector, retrospective-sweep and bibliographic verification records are absent. V2r6 retains the reported retrospective numbers with explicit historical attribution and does not claim that those missing results are independently reproduced in this release. See the [closeout record](reviews/v2r6_documentation_closeout.md). [NPZ rights](reviews/v2_rights_and_provenance.md) remain unresolved; its bytes are withheld. Draft branches are public.
+
+## Verify v2
+
+```sh
+git clone --branch release/preprint-v2r5 https://github.com/rhuerta07/research-frontier-aprnn.git
+cd research-frontier-aprnn
+python -S analysis/reproduce_v2.py
+python -m unittest discover -s tests -v
+```
+
+Record the reviewed full commit SHA with `git rev-parse HEAD`; this preparation branch can change during review. Public verification uses only the standard library and saved records. The unchanged v1 command remains `python analysis/reproduce_tables.py`.
+
+For a privately obtained, authenticated NPZ, optional NumPy 2.3.5 enables numerical replay:
+
+```sh
+python analysis/reproduce_v2.py --logits /PRIVATE/PATH/ORIGINAL_LOGITS.npz
+# Optional: repeat the exact frozen selected-only two-cohort ten-bias fit.
+python analysis/reproduce_v2.py --logits /PRIVATE/PATH/ORIGINAL_LOGITS.npz --refit-ten-bias
+```
+
+No NPZ download, model inference or solver initialization occurs. The optional refit repeats existing fixed settings; it does not recreate reviewer searches. Selected-only scalar choices are frozen from each cohort's 100 examples. Later held-out retrospective enumeration is a different analysis and is not substituted by this replay.
+
+| Verification level | Available |
+|---|---|
+| Public per-image class audit, transitions, saved-table accounting and provenance hashes | Included, standard library |
+| Scalar selected-candidate replay and ten-bias frozen-vector evaluation/refit | Tested privately; requires withheld hash-pinned NPZ and optional NumPy |
+| Later reviewer vectors, retrospective verification and bibliographic source check | Companion artifacts not recovered; not verified here |
+| Fresh model/checkpoint inference or formal verification | Not supplied |
+
+## Historical v1 description
+
+The following describes the preserved v1 study and public saved-record path. The earlier release-review recommendation at its end applies to v1; v2 requires separate review.
 
 ## What can be reproduced here
 
@@ -46,7 +83,7 @@ Use Python 3.10 or later; validated on Python 3.12.14. There are **no third-part
 ```sh
 git clone https://github.com/rhuerta07/research-frontier-aprnn.git
 cd research-frontier-aprnn
-git checkout --detach e364c5810cfc783bfeb4a7e1313d9fea6582cb7b
+git checkout --detach 37d81655fca7857032360e8df831c284c51dfe93
 python analysis/reproduce_tables.py
 python -m unittest discover -s tests -v
 ```
