@@ -1,0 +1,9 @@
+{
+  "reason": "Public frozen-cohort export appends one final newline to original source bytes.",
+  "original_sha256": "3192c9f24785b16dea74bbc86d05e40c08926a007af2ec8d2bfb770a8a4a3fb6",
+  "public_sha256": "87f5f223f5eff790b6e1dc034f11daf5c4efb9701cad0fdd3068f85867631a75",
+  "verified_json_equal": true,
+  "scientific_rule_changed": false,
+  "fit_started_before_correction": false,
+  "resolution": "Use authenticated original Deepnote source file; preserve public copy and failed preflight."
+}

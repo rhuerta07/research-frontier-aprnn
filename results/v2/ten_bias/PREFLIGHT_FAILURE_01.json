@@ -1,0 +1,5 @@
+{
+  "status": "failed",
+  "seconds": 0.024472798000033436,
+  "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/cbe605b32df0/ten_bias_diagnostic/run_diagnostic.py\", line 214, in <module>\n    run()\n  File \"/workspace/scratch/cbe605b32df0/ten_bias_diagnostic/run_diagnostic.py\", line 114, in run\n    require(sha(PUBLIC/'FROZEN_PILOT_COHORTS.json') == '3192c9f24785b16dea74bbc86d05e40c08926a007af2ec8d2bfb770a8a4a3fb6', 'cohort hash mismatch')\n  File \"/workspace/scratch/cbe605b32df0/ten_bias_diagnostic/run_diagnostic.py\", line 33, in require\n    raise ValueError(message)\nValueError: cohort hash mismatch\n"
+}

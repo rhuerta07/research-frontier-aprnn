@@ -1,0 +1,1 @@
+The sponsor explicitly approved the proposed ten-bias diagnostic and supplied ORIGINAL_LOGITS.npz in this conversation. This execution uses exactly the two approved fixed-rule fits. The historical design filename remains unchanged as the pre-fit snapshot; this record documents the subsequent approval. No additional research execution is authorized.

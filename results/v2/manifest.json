@@ -1,0 +1,237 @@
+{
+  "authoritative_manuscript": {
+    "bytes": 38419,
+    "sha256": "807d46d609c27208aef87d904898dc78eb4fd7d997d0e7eda40bdf68b5ccbb19",
+    "source_path": "papers/RESEARCH_FRONTIER_INTEGRATED_APRNN_MANUSCRIPT_v2r5_COPYEDITED_2026_11_10.md",
+    "source_sha256": "807d46d609c27208aef87d904898dc78eb4fd7d997d0e7eda40bdf68b5ccbb19"
+  },
+  "base_commit": "37d81655fca7857032360e8df831c284c51dfe93",
+  "included": {
+    "CITATION.cff": {
+      "bytes": 605,
+      "origin": "release-authored code or documentation",
+      "sha256": "d3e4ffa7911bfd1285e0afaaf70d24e626a15be18a5d2996d7de6f881fce5704"
+    },
+    "LICENSE": {
+      "bytes": 1728,
+      "origin": "release-authored code or documentation",
+      "sha256": "576916e909f836056bfedcd4e17bea2dbcfc93fec25e51e6a07b014f501c7d0a"
+    },
+    "README.md": {
+      "bytes": 13655,
+      "origin": "release-authored code or documentation",
+      "sha256": "459f6834e6dcb3e90336f51248e984e1e49ebeb7747d15724f2c9b220e672a56"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "bytes": 1612,
+      "origin": "release-authored code or documentation",
+      "sha256": "29264068255dddde88ccddd4eea3098788d037fc8d6d8717102431f1fd95c276"
+    },
+    "analysis/reproduce_v2.py": {
+      "bytes": 14888,
+      "origin": "release-authored code or documentation",
+      "sha256": "ea6120ae0a87c072d917d1eb0d6ed60ada19d60f27a679ccb7209b812f577266"
+    },
+    "paper/integrated_manuscript_v2r5.md": {
+      "bytes": 38419,
+      "sha256": "807d46d609c27208aef87d904898dc78eb4fd7d997d0e7eda40bdf68b5ccbb19",
+      "source_path": "papers/RESEARCH_FRONTIER_INTEGRATED_APRNN_MANUSCRIPT_v2r5_COPYEDITED_2026_11_10.md",
+      "source_sha256": "807d46d609c27208aef87d904898dc78eb4fd7d997d0e7eda40bdf68b5ccbb19"
+    },
+    "results/v2/class_audit/CLASS_AUDIT_RESULTS.json": {
+      "bytes": 26232,
+      "sha256": "b0ab8e858b739438e3725b18112310b341a787c1bb33be312c19a6e2981bda8b",
+      "source_path": "experiments/publication_assessment/post_peer_review_2026_11_10/CLASS_AUDIT_RESULTS.json",
+      "source_sha256": "b0ab8e858b739438e3725b18112310b341a787c1bb33be312c19a6e2981bda8b"
+    },
+    "results/v2/release_validation.json": {
+      "bytes": 4457,
+      "origin": "release-authored code or documentation",
+      "sha256": "736726960a694a92043fc2b257aff57fd4e986415cbd1f2d8481abf2d0f1c62f"
+    },
+    "results/v2/scalar/BASELINE_PROVENANCE.json": {
+      "bytes": 5617,
+      "sha256": "a2dde91113aa6e3050e5383447f396248cd2f565ab0bf2b507608326a0e844e4",
+      "source_path": "experiments/publication_assessment/class8_scalar_diagnostic_2026_11_10/BASELINE_PROVENANCE.json",
+      "source_sha256": "a2dde91113aa6e3050e5383447f396248cd2f565ab0bf2b507608326a0e844e4"
+    },
+    "results/v2/scalar/CALIBRATION_SELECTION.json": {
+      "bytes": 82119,
+      "sha256": "6ca47da911c3f87c6b8bea0c356f7de5b0e4887c07464403bf9cebf6b0671073",
+      "source_path": "experiments/publication_assessment/class8_scalar_diagnostic_2026_11_10/CALIBRATION_SELECTION.json",
+      "source_sha256": "6ca47da911c3f87c6b8bea0c356f7de5b0e4887c07464403bf9cebf6b0671073"
+    },
+    "results/v2/scalar/D1_SELECTION.csv": {
+      "bytes": 375,
+      "sha256": "20c710ec49ef2759e477928793b62731da37126113301f2bc24888a393ccf356",
+      "source_path": "experiments/publication_assessment/class8_scalar_diagnostic_2026_11_10/D1_SELECTION.csv",
+      "source_sha256": "20c710ec49ef2759e477928793b62731da37126113301f2bc24888a393ccf356"
+    },
+    "results/v2/scalar/D2_CLASS_TABLE.csv": {
+      "bytes": 14168,
+      "sha256": "cf726d174163554a54d3594bfdcf2fa3b917b16f64403ddec709607f0aadeefc",
+      "source_path": "experiments/publication_assessment/class8_scalar_diagnostic_2026_11_10/D2_CLASS_TABLE.csv",
+      "source_sha256": "cf726d174163554a54d3594bfdcf2fa3b917b16f64403ddec709607f0aadeefc"
+    },
+    "results/v2/scalar/D3_COMPARISONS.csv": {
+      "bytes": 5503,
+      "sha256": "ae63a83be52be0bb0e53dd7407d94bded8bb97255565033e074fe8e01d3bad2b",
+      "source_path": "experiments/publication_assessment/class8_scalar_diagnostic_2026_11_10/D3_COMPARISONS.csv",
+      "source_sha256": "ae63a83be52be0bb0e53dd7407d94bded8bb97255565033e074fe8e01d3bad2b"
+    },
+    "results/v2/scalar/FINAL_HASHES.json": {
+      "bytes": 2019,
+      "sha256": "7f94f94621a4410bdcae5601fd73cadd6c63d6cb69e03a7ff7be85fc79df40bc",
+      "source_path": "experiments/publication_assessment/class8_scalar_diagnostic_2026_11_10/FINAL_HASHES.json",
+      "source_sha256": "7f94f94621a4410bdcae5601fd73cadd6c63d6cb69e03a7ff7be85fc79df40bc"
+    },
+    "results/v2/scalar/PRESPECIFIED_RULE.json": {
+      "bytes": 1062,
+      "sha256": "d72663261bd9535627682dd19f12f1a95e178e05c019134c7084a090db0b1f0e",
+      "source_path": "experiments/publication_assessment/class8_scalar_diagnostic_2026_11_10/PRESPECIFIED_RULE.json",
+      "source_sha256": "d72663261bd9535627682dd19f12f1a95e178e05c019134c7084a090db0b1f0e"
+    },
+    "results/v2/scalar/REPORT.md": {
+      "bytes": 9084,
+      "sha256": "d04bdb0433fdd8ec0d70251af74bafc65dfb624f0284b6171b0079f3d4f735d5",
+      "source_path": "experiments/publication_assessment/class8_scalar_diagnostic_2026_11_10/REPORT.md",
+      "source_sha256": "d04bdb0433fdd8ec0d70251af74bafc65dfb624f0284b6171b0079f3d4f735d5"
+    },
+    "results/v2/sources/class_audit_original.py": {
+      "bytes": 4520,
+      "sha256": "19a64528375da2647025364b5e1ff24724e28a7eae76755e679427674b14b09b",
+      "source_path": "experiments/publication_assessment/post_peer_review_2026_11_10/read_only_class_audit.py",
+      "source_sha256": "19a64528375da2647025364b5e1ff24724e28a7eae76755e679427674b14b09b"
+    },
+    "results/v2/sources/ten_bias_original.py": {
+      "bytes": 11863,
+      "sha256": "0b332751ffcb98d66afd53fd1af20df702fb780ddb116f341b7be0cce4ac255c",
+      "source_path": "experiments/publication_assessment/ten_bias_diagnostic_2026_11_10/run_diagnostic.py",
+      "source_sha256": "0b332751ffcb98d66afd53fd1af20df702fb780ddb116f341b7be0cce4ac255c"
+    },
+    "results/v2/ten_bias/APPROVED_DESIGN.md": {
+      "bytes": 8682,
+      "sha256": "2f58354a65958ef6ff4762096726607cd97a246581159f116e2ccd35fd06598c",
+      "source_path": "protocols/publication_assessment/TEN_BIAS_DIAGNOSTIC_DESIGN_FOR_APPROVAL_2026_11_10.md",
+      "source_sha256": "2f58354a65958ef6ff4762096726607cd97a246581159f116e2ccd35fd06598c"
+    },
+    "results/v2/ten_bias/AUTHORIZATION.md": {
+      "bytes": 351,
+      "sha256": "631e7f5e9655e2b454b9b02faf1eefe6e15ea457e0e1c638d23066af87dec4d9",
+      "source_path": "experiments/publication_assessment/ten_bias_diagnostic_2026_11_10/AUTHORIZATION.md",
+      "source_sha256": "631e7f5e9655e2b454b9b02faf1eefe6e15ea457e0e1c638d23066af87dec4d9"
+    },
+    "results/v2/ten_bias/CLASS_OUTCOMES.csv": {
+      "bytes": 5726,
+      "sha256": "e0e2c2a80dd798312559dc5c625f38582da3fdbd0889edbc3fc4b11b6af7b2b8",
+      "source_path": "experiments/publication_assessment/ten_bias_diagnostic_2026_11_10/CLASS_OUTCOMES.csv",
+      "source_sha256": "e0e2c2a80dd798312559dc5c625f38582da3fdbd0889edbc3fc4b11b6af7b2b8"
+    },
+    "results/v2/ten_bias/COMPARISONS.csv": {
+      "bytes": 2986,
+      "sha256": "6847da93e5ca5ad3059738af63356b76f815166c875e26f89aa0d23737606865",
+      "source_path": "experiments/publication_assessment/ten_bias_diagnostic_2026_11_10/COMPARISONS.csv",
+      "source_sha256": "6847da93e5ca5ad3059738af63356b76f815166c875e26f89aa0d23737606865"
+    },
+    "results/v2/ten_bias/FINAL_OUTPUT_HASHES.json": {
+      "bytes": 2176,
+      "sha256": "1d2d40f72a6665866b02622eb309a844f7160973bf39325a07b20f95e85408e9",
+      "source_path": "experiments/publication_assessment/ten_bias_diagnostic_2026_11_10/FINAL_OUTPUT_HASHES.json",
+      "source_sha256": "1d2d40f72a6665866b02622eb309a844f7160973bf39325a07b20f95e85408e9"
+    },
+    "results/v2/ten_bias/FITS_FROZEN_BEFORE_HELDOUT_EVALUATION.json": {
+      "bytes": 2029,
+      "sha256": "02f5a40b7a2672600bd2483f3c8146947fd134c9470c1d95197aaaea1e97c418",
+      "source_path": "experiments/publication_assessment/ten_bias_diagnostic_2026_11_10/FITS_FROZEN_BEFORE_HELDOUT_EVALUATION.json",
+      "source_sha256": "02f5a40b7a2672600bd2483f3c8146947fd134c9470c1d95197aaaea1e97c418"
+    },
+    "results/v2/ten_bias/P001_FIT.json": {
+      "bytes": 806,
+      "sha256": "dfe18b573386fcc286d00b2f1ba516295ff8c694f60b0eabab864b3093fa76f7",
+      "source_path": "experiments/publication_assessment/ten_bias_diagnostic_2026_11_10/P001_FIT.json",
+      "source_sha256": "dfe18b573386fcc286d00b2f1ba516295ff8c694f60b0eabab864b3093fa76f7"
+    },
+    "results/v2/ten_bias/P002_FIT.json": {
+      "bytes": 801,
+      "sha256": "27aaebf3318170eff631c7a4f8269f4952837f4ddd42e72c1bc51e4980deecac",
+      "source_path": "experiments/publication_assessment/ten_bias_diagnostic_2026_11_10/P002_FIT.json",
+      "source_sha256": "27aaebf3318170eff631c7a4f8269f4952837f4ddd42e72c1bc51e4980deecac"
+    },
+    "results/v2/ten_bias/PREFLIGHT.json": {
+      "bytes": 1673,
+      "sha256": "4989738050d033e594f57ce7277ba592e696a8e825ed16d1d9ec91113221cac1",
+      "source_path": "experiments/publication_assessment/ten_bias_diagnostic_2026_11_10/PREFLIGHT.json",
+      "source_sha256": "4989738050d033e594f57ce7277ba592e696a8e825ed16d1d9ec91113221cac1"
+    },
+    "results/v2/ten_bias/PREFLIGHT_FAILURE_01.json": {
+      "bytes": 647,
+      "sha256": "f4b1edabf351ea2ff2358073ca1d181874a4d2d04f8ca23e10e9a3f0f01a92ef",
+      "source_path": "experiments/publication_assessment/ten_bias_diagnostic_2026_11_10/PREFLIGHT_FAILURE_01.json",
+      "source_sha256": "f4b1edabf351ea2ff2358073ca1d181874a4d2d04f8ca23e10e9a3f0f01a92ef"
+    },
+    "results/v2/ten_bias/PROVENANCE_CORRECTION.json": {
+      "bytes": 494,
+      "sha256": "929c7a46e6d30afbc74b2095e849aabd85cffdceaee1477dd1ce3b091304a122",
+      "source_path": "experiments/publication_assessment/ten_bias_diagnostic_2026_11_10/PROVENANCE_CORRECTION.json",
+      "source_sha256": "929c7a46e6d30afbc74b2095e849aabd85cffdceaee1477dd1ce3b091304a122"
+    },
+    "results/v2/ten_bias/REPORT.md": {
+      "bytes": 7973,
+      "sha256": "fc300f47d0d9f25a3ef7ad5b58f22585d44bd1be5ca3a806b5098def9cc78667",
+      "source_path": "experiments/publication_assessment/ten_bias_diagnostic_2026_11_10/REPORT.md",
+      "source_sha256": "fc300f47d0d9f25a3ef7ad5b58f22585d44bd1be5ca3a806b5098def9cc78667"
+    },
+    "results/v2/ten_bias/SUMMARY.json": {
+      "bytes": 2168,
+      "sha256": "ba105a6420cfa35d37e465a03d67f7bddf94abb26d1367442e7516a23fe9ca50",
+      "source_path": "experiments/publication_assessment/ten_bias_diagnostic_2026_11_10/SUMMARY.json",
+      "source_sha256": "ba105a6420cfa35d37e465a03d67f7bddf94abb26d1367442e7516a23fe9ca50"
+    },
+    "reviews/post_peer_review_decision_memo.md": {
+      "bytes": 17152,
+      "sha256": "050530b61c0bcff49196b5552ad94d2a4e3fb6e5012b8a20ccbd83e9000e6c9c",
+      "source_path": "reviews/POST_PEER_REVIEW_SCIENTIFIC_DECISION_MEMO_2026_11_10.md",
+      "source_sha256": "050530b61c0bcff49196b5552ad94d2a4e3fb6e5012b8a20ccbd83e9000e6c9c"
+    },
+    "reviews/release_readiness.md": {
+      "bytes": 2930,
+      "origin": "release-authored code or documentation",
+      "sha256": "410de88aa0c1229ec574b44b7196c7f9bf4c73a4961183440f41ef1b87b73a95"
+    },
+    "reviews/v2_release_readiness.md": {
+      "bytes": 8037,
+      "origin": "release-authored code or documentation",
+      "sha256": "99a3c4adfc61e85d2d275009bc1bd5cfe5ba04f1cd6196410a803a7c13bcf608"
+    },
+    "reviews/v2_rights_and_provenance.md": {
+      "bytes": 2960,
+      "origin": "release-authored code or documentation",
+      "sha256": "1f1913380f45f7806b9eec0d3972061913288ac0eedcd5b016076a546bd74c1e"
+    },
+    "tests/test_v2.py": {
+      "bytes": 3052,
+      "origin": "release-authored code or documentation",
+      "sha256": "96b98eda06caa364363e461c5b89eaf961ca737ecdd108d330d39dc86ad8816a"
+    }
+  },
+  "omitted": {
+    "bibliographic_source_check": {
+      "reason": "Referenced by manuscript but companion record not found."
+    },
+    "original_logits": {
+      "bytes": 2084250,
+      "reason": "Redistribution clearance not yet established; private numerical verification may use authenticated local copy.",
+      "sha256": "ef356769710266f255539755b3a035975ac37814d49a4e46ad5fe46c30659e6b"
+    },
+    "original_retrospective_verification": {
+      "reason": "Referenced by manuscript but companion record not found."
+    },
+    "original_ten_bias_auxiliary_records": {
+      "reason": "Archival FINAL_OUTPUT_HASHES.json names unrecovered original PREDICTIONS.json, failed-run source and stdout/stderr logs. Available failure and correction JSON are retained; no substitutes supplied."
+    },
+    "reviewer_vectors_and_source": {
+      "reason": "Not found in visible Deepnote inventory or current attachments; no substitute reconstructed from manuscript tables."
+    }
+  },
+  "schema": "aprnn-preprint-v2-evidence-1"
+}

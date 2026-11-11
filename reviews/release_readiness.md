@@ -1,3 +1,5 @@
+> Historical v1 readiness record. For current v2 scope and unresolved evidence, see [v2 readiness](v2_release_readiness.md).
+
 # Sponsor review handoff
 
 Status: prepared for sponsor inspection; not merged, tagged or externally distributed.

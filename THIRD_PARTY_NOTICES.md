@@ -18,3 +18,7 @@ Any future redistribution of upstream code, overlays, weights or datasets needs
 separate review of applicable licenses/notices and permission where required.
 References and prior-work quotations retain their original attribution; inclusion
 in the manuscript does not relicense a third-party work.
+
+## v2 additions
+
+Original archived Research Frontier diagnostics in `results/v2/sources/` use MIT under LICENSE. The portable v2 wrapper optionally uses NumPy; NumPy is not vendored. The original-logit NPZ and reviewer-owned material are withheld; see [rights assessment](reviews/v2_rights_and_provenance.md). Existing root notices do not themselves clear the generated binary.
